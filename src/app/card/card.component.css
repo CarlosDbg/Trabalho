@@ -1,0 +1,41 @@
+.mat-card{
+  
+    display: inline-block;
+    max-width: 230px;
+    margin: auto;
+    margin-left: auto;
+    
+}
+
+.mat-card-avatar{
+    background-image: url('/assets/batman.png');
+    background-size: cover;
+}
+
+.harry{
+     background-image: url('/assets/harry2.jpeg');
+     background-size: cover;
+}
+
+.lalaland{
+    background-image: url('/assets/lalaland.png');
+    background-size: cover;
+}
+
+.beetleJuice{
+    background-image: url('/assets/beet.jpg');
+    background-size: cover;
+}
+
+.vingadores{
+    background-image: url('/assets/ving.jpg');
+    background-size: cover;
+}
+
+.thor-ragn{
+    background-image: url('/assets/thor.jpg');
+    background-size: cover;
+}
+
+/*
+    */
