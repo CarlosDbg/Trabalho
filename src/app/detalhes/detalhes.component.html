@@ -1,0 +1,15 @@
+
+<mat-card *ngFor= "let filme of dadosService.filmes">
+    <mat-card-header>
+
+        <mat-card-title>{{filme.titulo}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="filme.imagem">
+
+    <mat-card-content>
+
+        Detalhes: {{filme.detalhes}}
+    </mat-card-content>
+</mat-card>
+
+

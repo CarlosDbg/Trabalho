@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { DadosService } from '../dados.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-card',
@@ -7,9 +10,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public dadosService: DadosService, 
+    private router: Router) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
-}
+  detalhar(){
+    this.router.navigateByUrl('detalhes');
+    
+  }
+
+
+  
+  }
+

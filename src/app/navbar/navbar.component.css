@@ -1,3 +1,14 @@
 .spacer {
   flex: 1 1 auto;
 }
+
+.mat-toolbar{
+  background: rgba(207,202,247,1);
+background: -moz-linear-gradient(left, rgba(207,202,247,1) 0%, rgba(195,182,236,1) 30%, rgba(179,170,233,1) 50%, rgba(161,160,233,1) 99%, rgba(161,160,233,1) 100%);
+background: -webkit-linear-gradient(left, rgba(207,202,247,1) 0%, rgba(195,182,236,1) 30%, rgba(179,170,233,1) 50%, rgba(161,160,233,1) 99%, rgba(161,160,233,1) 100%);
+background: -o-linear-gradient(left, rgba(207,202,247,1) 0%, rgba(195,182,236,1) 30%, rgba(179,170,233,1) 50%, rgba(161,160,233,1) 99%, rgba(161,160,233,1) 100%);
+background: -ms-linear-gradient(left, rgba(207,202,247,1) 0%, rgba(195,182,236,1) 30%, rgba(179,170,233,1) 50%, rgba(161,160,233,1) 99%, rgba(161,160,233,1) 100%);
+background: linear-gradient(to right, rgba(207,202,247,1) 0%, rgba(195,182,236,1) 30%, rgba(179,170,233,1) 50%, rgba(161,160,233,1) 99%, rgba(161,160,233,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcaf7', endColorstr='#a1a0e9', GradientType=1 );
+}
+

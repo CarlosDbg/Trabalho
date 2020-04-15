@@ -1,0 +1,21 @@
+.mat-card{
+  
+    position: absolute;
+    left: 570px;
+    max-width: 220px;
+    margin: 20px;
+    flex-basis: 25%;
+    margin-left: auto;
+    
+}
+.flex-spacer{
+    width: 100%;
+}
+
+.mat-card-actions{
+    display: flex;
+}
+
+.mat-card-content{
+    display: flex;
+}
